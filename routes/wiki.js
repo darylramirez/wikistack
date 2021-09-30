@@ -7,6 +7,7 @@ wikiRouter.get("/", (req, res) => {
 });
 
 wikiRouter.post("/", (req, res) => {
+  console.log(req.body)
   res.send("Test 2");
 });
 
